@@ -1,0 +1,323 @@
+body {
+    background-color: #5d08d4;
+    margin: 1%;
+}
+* {
+    box-sizing: border-box;
+}
+#wrapper {
+    border-style: solid;
+    font-family: sans-serif;
+    border-color: #5d08d4;
+}
+
+.header {
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.header,
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    background-color: #5d08d4;
+}
+
+.linkcolor {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5%;
+    background-color: #5d08d4;
+}
+
+.linkcolor2 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+
+.searchcontainer {
+    display: flex;
+    flex-direction: column;
+    border-right: none;
+    background-color: #5d08d4;
+}
+
+.content {
+    display: flex;
+}
+
+.inputlength {
+    width: 210px;
+}
+
+.button {
+    text-align: end;
+    padding-top: 1%;
+    font-weight: bold;
+}
+.maincontent {
+    flex: content;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #5d08d4;
+    border-style: solid;
+    border-color: white;
+    margin-left: 1%;
+}
+
+.searchcontainer,
+.commercial,
+.biotoko,
+.belanja,
+.testimoni,
+.sosmed {
+    border-right: solid;
+    border-color: #5d08d4;
+    padding-bottom: 2%;
+    background-color: #5d08d4;
+}
+
+.commercial,
+.biotoko,
+.belanja,
+.testimoni,
+.payment,
+.sosmed {
+    padding-top: 2%;
+}
+
+.maincontent p {
+    color: white;
+    margin: 1%;
+    margin-top: 0;
+}
+
+.ahref {
+    display: flex;
+    flex-direction: column;
+}
+
+.biogambar,
+.gambarbelanja,
+.commercial {
+    display: flex;
+    flex-direction: column;
+}
+
+.listorder {
+    display: flex;
+    flex-direction: column;
+    background-color: #5d08d4;
+    padding: 1%;
+    padding-left: 5%;
+}
+
+.listbelanja {
+    display: flex;
+    flex-direction: column;
+    background-color: #5d08d4;
+    padding: 1%;
+    padding-left: 5%;
+}
+
+.testimoni {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    border-right: solid;
+    border-color: #5d08d4;
+    background-color: #5d08d4;
+    padding-top: 5%;
+}
+
+.payment img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5d08d4;
+    border-right: solid;
+    border-color: #5d08d4;
+}
+.medsos {
+    width: 25px;
+    height: 25px;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #5d08d4;
+
+}
+
+.footer p {
+    color: white;
+}
+
+.leftmenu {
+    background-color: #5d08d4;
+}
+
+.produkmakanan {
+    height: 100%;
+    margin: 1%;
+    display: flex;
+    border-color: white;
+    border-style: solid;
+    padding: 1%;
+}
+
+.produktersebut {
+    height: 100%;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.gambarproduk {
+    background-color: #5d08d4;
+    height: 95%;
+}
+
+.tombolproduk {
+    background-color: aqua;
+    height: 5%;
+}
+
+.detailproduk {
+    height: 100%;
+    flex: 5;
+    display: flex;
+    align-items: center;
+    background-color: #5d08d4;
+}
+
+.detailproduk p {
+    padding: 1%;
+    color: white;
+    border-left: solid;
+    border-color: white;
+}
+
+.tombolproduk button {
+    height: 100%;
+    width: 100%;
+    background-color: yellowgreen;
+    font-weight: bold;
+    color: white;
+}
+
+.produkmakanan2 {
+    height: 100%;
+    margin: 1%;
+    display: flex;
+    border-color: white;
+    border-style: solid;
+    padding: 1%;
+    margin-bottom: 0;
+}
+
+.produkmakanan1 {
+    height: 100%;
+    margin: 1%;
+    display: flex;
+    border-color: white;
+    border-style: solid;
+    padding: 1%;
+    margin-top: 0;
+}
+.row {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.caption h3 {
+    text-align: center;
+}
+
+.rowkeranjang {
+    width: 100%;
+}
+
+.rowkeranjang {
+    padding: 1%;
+}
+
+.rowkeranjang h2,
+.rowkeranjang h3 {
+    color: white;
+}
+
+table tr th {
+    background-color: white;
+}
+
+table tbody {
+    background-color: white;
+}
+.tablecontainer {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.tablecontainer2 {
+    width: 100%;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+.tombolcetak {
+    padding: 1%;
+    background-color: greenyellow;
+    color: white;
+
+}
